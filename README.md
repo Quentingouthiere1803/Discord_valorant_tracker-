@@ -45,6 +45,22 @@ Players can choose which of their statistics are tracked or ignored.
 
 ---
 
+## User Flow (Planned)
+
+1. A Discord server admin adds the bot to their server.
+2. A player voluntarily registers using a command:
+   /register riot_id#tag
+3. The bot asks for explicit confirmation before enabling tracking.
+4. Riot OAuth
+5. Once confirmed, the player is added to the server watchlist.
+6. The player can view their own statistics using commands such as:
+   /my-stats
+7. Server-wide rankings only include players who opted in.
+8. The player can revoke access at any time using:
+   /unregister
+
+---
+
 ## Project Status
 This project is currently under development.
 
